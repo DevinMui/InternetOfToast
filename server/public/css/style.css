@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+html { 
+	height: 100%;
+}
+body {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	background: url(../images/toast.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#top {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-shadow: 2px 2px 2px black;
+}
+#body {
+	background: white;
+	padding-bottom: 70px;
+	padding-top: 35px;
+}
+.footer {
+	margin-top: 60px;
+	width: 100%;
+	min-height: 60px;
+	background-color: #191919;
+}
+.footer > .container > * {
+	color: #bdbdbd;
+	margin: 20px 0;
+}
