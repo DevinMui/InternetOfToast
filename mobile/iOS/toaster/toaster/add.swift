@@ -80,7 +80,7 @@ class add: UIViewController {
             sno = false
         }
         
-        let userData = ["repeat": rep, "label": lab, "sound": sou, "snooze": sno, "delay": delay, "type": type, "amount": amount, "time": x, "userid": userid]
+        let userData = [rep, lab, sou, sno, delay, type, amount, x, userid]
         
         store.setObject(userData, forKey: "alarm#\(userid)")
     }
